@@ -13,7 +13,7 @@ export default function Contactus() {
         <div className="min-h-screen bg-white">
              <main>
                 {/* Contact Hero Section */}
-                <section className="relative py-20 overflow-hidden bg-gray-50">
+                <section id="contact" className="relative py-20 overflow-hidden bg-gray-50">
                     <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full pointer-events-none">
                         <div className="absolute top-[-10%] right-[-5%] w-[40%] h-[40%] bg-pink-100/40 rounded-full blur-[100px]"></div>
                         <div className="absolute bottom-[10%] left-[-5%] w-[30%] h-[30%] bg-rose-100/40 rounded-full blur-[100px]"></div>
@@ -24,8 +24,8 @@ export default function Contactus() {
                             Get in <span className="text-pink-600">Touch</span>
                         </h1>
                         <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed font-semibold">
-                            Have questions or feedback? We'd love to hear from you.
-                            Our team is here to help you get the most out of AI-NEXT.
+                            Have questions or feedback? Don’t hesitate to<br/>
+                            get in touch — I’m always open to new ideas and collaborations.
                         </p>
                     </div>
                 </section>
@@ -44,9 +44,9 @@ export default function Contactus() {
 
                                 <div className="space-y-6">
                                     {[
-                                        { icon: "📧", label: "Email", value: "hello@ai-next.com" },
-                                        { icon: "📍", label: "Office", value: "123 AI Plaza, Silicon Valley, CA" },
-                                        { icon: "💬", label: "Live Chat", value: "Available Mon-Fri, 9am - 5pm EST" }
+                                        { icon: "📧", label: "Email", value: "awishkaisuru0573@gmail.com" },
+                                        { icon: "📍", label: "Address", value: "No.01, Bandaranayaka mw, Ballapana Galigamuwa Town." },
+                                        { icon: "💬", label: "Live Chat", value: "0701224436" }
                                     ].map((item, i) => (
                                         <div key={i} className="flex items-start gap-4">
                                             <div className="w-12 h-12 rounded-2xl bg-pink-50 flex items-center justify-center text-2xl">
@@ -80,7 +80,7 @@ export default function Contactus() {
 
                         {/* Contact Form */}
                         <div className="relative">
-                            <div className="absolute -inset-4 bg-gradient-to-tr from-pink-500 to-rose-500 rounded-[3rem] blur-2xl opacity-10"></div>
+                            <div className="absolute -inset-4 bg-linear-to-tr from-pink-500 to-rose-500 rounded-[3rem] blur-2xl opacity-10"></div>
                             <div className="relative bg-white p-8 md:p-12 rounded-[2.5rem] border border-gray-100 shadow-2xl">
                                 {!submitted ? (
                                     <form onSubmit={handleSubmit} className="space-y-6">
@@ -89,7 +89,7 @@ export default function Contactus() {
                                                 <label className="text-sm font-bold text-gray-700 ml-1">Full Name</label>
                                                 <input
                                                     required
-                                                    placeholder="John Doe"
+                                                    placeholder="Awishka Isuru"
                                                     className="w-full px-5 py-4 rounded-2xl bg-gray-50 border border-gray-100 focus:outline-none focus:ring-4 focus:ring-pink-500/10 focus:border-pink-500 transition-all font-medium"
                                                 />
                                             </div>
@@ -98,7 +98,7 @@ export default function Contactus() {
                                                 <input
                                                     required
                                                     type="email"
-                                                    placeholder="john@example.com"
+                                                    placeholder="awishka@gmail.com.com"
                                                     className="w-full px-5 py-4 rounded-2xl bg-gray-50 border border-gray-100 focus:outline-none focus:ring-4 focus:ring-pink-500/10 focus:border-pink-500 transition-all font-medium"
                                                 />
                                             </div>

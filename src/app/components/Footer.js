@@ -9,12 +9,12 @@ export default function Footer() {
         <div className="flex items-center gap-2">
           <img src="/logo.png" alt="AI-NEXT Logo" className="w-8 h-8 object-contain opacity-80" />
           <span className="text-sm font-bold text-gray-900 tracking-widest uppercase">
-            AI<span className="text-pink-600">-NEXT</span>
+            Awishka Isuru<span className="text-pink-600"></span>
           </span>
         </div>
 
         <div className="text-sm text-gray-500 font-medium">
-          © {new Date().getFullYear()} AI-NEXT. All rights reserved.
+          © {new Date().getFullYear()} AI. All rights reserved.
         </div>
 
         <div className="flex items-center gap-6">

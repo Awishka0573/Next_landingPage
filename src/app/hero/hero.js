@@ -15,17 +15,24 @@ export default function Hero() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-pink-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-pink-500"></span>
           </span>
-          Next.js 16 • Turbopack Powered
+          Built with Next.js 16 • Powered by Turbopack
         </div>
 
         <h1 className="text-5xl md:text-7xl font-black text-gray-900 tracking-tight mb-8 leading-[1.1]">
-          Welcome <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-rose-600">Awishka</span> 🚀
+          Hey, I’m  <span className="bg-clip-text text-transparent bg-linear-to-r from-pink-600 to-rose-600">Awishka </span> 👋
         </h1>
 
         <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-12 leading-relaxed font-medium opacity-80">
-          The next generation dashboard for AI creators.
-          Manage your models, track performance, and scale your vision with AI-NEXT.
+          Designing and developing fast, scalable, and user-focused web applications using modern technologies.
         </p>
+
+        <div className="mt-8">
+          <img
+            src="/ai_1.jpg"
+            alt="Awishka Isuru"
+            className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover mx-auto shadow-xl"
+          />
+        </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
           <Link
@@ -33,7 +40,7 @@ export default function Hero() {
             className="group relative px-8 py-4 rounded-2xl bg-pink-600 text-white font-bold text-lg hover:bg-pink-700 transition-all shadow-[0_20px_50px_rgba(236,72,153,0.2)] hover:shadow-[0_20px_50px_rgba(236,72,153,0.4)] active:scale-95 overflow-hidden"
           >
             <div className="absolute inset-0 w-full h-full bg-white/20 -translate-x-full group-hover:translate-x-full transition-transform duration-700 skew-x-12"></div>
-            <span className="relative">Launch Dashboard</span>
+            <span className="relative">Dashboard</span>
           </Link>
           <Link
             href="/about"
@@ -45,7 +52,7 @@ export default function Hero() {
 
         {/* Floating elements concept */}
         <div className="mt-20 flex justify-center opacity-40 grayscale hover:grayscale-0 transition-all duration-700">
-          <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
+          <div className="w-full h-px bg-linear-to-r from-transparent via-gray-200 to-transparent"></div>
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@ export default function About() {
         <div className="min-h-screen bg-white">
             <main>
                 {/* About Hero Section */}
-                <section className="relative py-20 overflow-hidden bg-gray-50">
+                <section id="about" className="relative py-20 overflow-hidden bg-gray-50">
                     <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full pointer-events-none">
                         <div className="absolute top-[-10%] left-[-5%] w-[40%] h-[40%] bg-pink-100/40 rounded-full blur-[100px]"></div>
                         <div className="absolute bottom-[10%] right-[-5%] w-[30%] h-[30%] bg-rose-100/40 rounded-full blur-[100px]"></div>
@@ -13,7 +13,7 @@ export default function About() {
 
                     <div className="relative max-w-7xl mx-auto px-4 text-center">
                         <h1 className="text-4xl md:text-6xl font-black text-gray-900 tracking-tight mb-6">
-                            Empowering the Next Generation of <span className="text-pink-600">AI Creators</span>
+                            Empowering the Next Generation of Builders with <span className="text-pink-600">AI</span>
                         </h1>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-medium">
                             AI-NEXT is more than just a dashboard. It's a comprehensive platform designed to streamline your AI workflows, from model management to performance tracking.
@@ -25,16 +25,13 @@ export default function About() {
                 <section className="py-24 max-w-7xl mx-auto px-4">
                     <div className="grid md:grid-cols-2 gap-16 items-center">
                         <div>
-                            <h2 className="text-5xl font-bold text-gray-900 mb-6">Our Mission</h2>
-                            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                                Our mission is to democratize access to advanced AI management tools. We believe that every creator, from solo developers to large teams, should have the power to scale their AI visions with ease and efficiency.
-                            </p>
+                            <h2 className="text-5xl font-bold text-gray-900 mb-6">My Mission</h2>
                             <p className="text-lg text-gray-600 leading-relaxed">
                                 By focusing on user-centric design and cuttingrd-edge performance with Turbopack, we've built a platform that feels like the future of web applications.
                             </p>
                         </div>
                         <div className="relative">
-                            <div className="absolute -inset-4 bg-gradient-to-tr from-pink-500 to-rose-500 rounded-3xl blur-2xl opacity-10"></div>
+                            <div className="absolute -inset-4 bg-linear-to-tr from-pink-500 to-rose-500 rounded-3xl blur-2xl opacity-10"></div>
                             <div className="relative bg-gray-900 p-8 rounded-3xl border border-gray-100 shadow-xl overflow-hidden group">
                                 <img
                                     src="/logo.png"
@@ -54,25 +51,25 @@ export default function About() {
                 <section className="py-24 bg-gray-50">
                     <div className="max-w-7xl mx-auto px-4">
                         <div className="text-center mb-16">
-                            <h2 className="text-4xl font-black text-gray-900">Our Core Values</h2>
+                            <h2 className="text-4xl font-black text-gray-900">My Core Values</h2>
                             <div className="mt-4 w-20 h-1 bg-pink-600 mx-auto rounded-full"></div>
                         </div>
 
                         <div className="grid md:grid-cols-3 gap-8">
                             {[
                                 {
-                                    title: "Performance",
-                                    desc: "Blazing fast speeds powered by Turbopack and Next.js 16.",
+                                    title: "Growth & Performance",
+                                    desc: "I focus on building fast, efficient, and reliable web applications. I continuously learn new technologies to improve performance and deliver better digital experiences.",
                                     icon: "⚡"
                                 },
                                 {
-                                    title: "Design",
-                                    desc: "A premium, modern look that puts the user experience first.",
+                                    title: "Design & User Experience",
+                                    desc: "I believe great design goes beyond visuals. My goal is to create clean, modern, and user-friendly interfaces that are intuitive and enjoyable to use.",
                                     icon: "🎨"
                                 },
                                 {
-                                    title: "Community",
-                                    desc: "Built by and for AI creators around the world.",
+                                    title: "Learning & Collaboration",
+                                    desc: "I value continuous learning and collaboration with others. By sharing knowledge and working with diverse teams, I aim to grow as a developer and contribute to meaningful projects.",
                                     icon: "🌍"
                                 }
                             ].map((value, i) => (
