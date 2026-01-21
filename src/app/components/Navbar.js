@@ -28,7 +28,7 @@ export default function Navbar() {
 
         {/* Brand */}
         <div className="flex items-center gap-4">
-          <div className="relative flex-shrink-0">
+            <div className="relative shrink-0">
             <img
               src="/logo.png"
               alt="AI-NEXT Logo"
@@ -51,10 +51,6 @@ export default function Navbar() {
         {/* Actions */}
         <div className="flex items-center gap-4">
           <button className="hidden md:inline-flex items-center px-4 py-2 rounded-full bg-white/70 border border-gray-200 text-sm font-medium hover:shadow-md transition">Projects</button>
-
-          <button aria-label="Profile" className="relative w-11 h-11 rounded-full overflow-hidden ring-1 ring-gray-200 hover:ring-pink-400 transition">
-            <img src="/ai_1.jpg" alt="Awishka" className="w-full h-full object-cover" />
-          </button>
 
           <Link href="/login" className="hidden md:inline-flex px-4 py-2 rounded-full bg-pink-600 text-white text-sm font-semibold hover:bg-pink-700 transition">Sign In</Link>
 

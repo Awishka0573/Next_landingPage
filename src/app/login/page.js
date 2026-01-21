@@ -18,7 +18,7 @@ export default function Login() {
         <div className="absolute bottom-[-10%] left-[-5%] w-[40%] h-[40%] bg-rose-100/50 rounded-full blur-[100px]"></div>
       </div>
 
-      <div className="relative w-full max-w-md bg-white/70 backdrop-blur-2xl rounded-[2rem] shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] p-10 border border-white/50">
+      <div className="relative w-full max-w-md bg-white/70 backdrop-blur-2xl rounded-4xl shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] p-10 border border-white/50">
 
         {/* Title */}
         <div className="mb-8 text-center">
@@ -67,9 +67,9 @@ export default function Login() {
         <div className="text-center mt-8">
           <p className="text-sm text-gray-500 font-medium">
             New to AI-NEXT?{" "}
-            <span className="text-pink-600 hover:text-pink-700 font-bold cursor-pointer transition">
+            <a href="/signup" className="text-pink-600 hover:text-pink-700 font-bold transition">
               Create an account
-            </span>
+            </a>
           </p>
         </div>
       </div>

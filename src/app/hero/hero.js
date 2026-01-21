@@ -48,7 +48,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-8">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-8 pt-16 ">
         <div className="lg:w-1/2 pt-32 pb-20 lg:py-0">
 
           {/* Content Wrapper with subtle background for mobile readability */}
